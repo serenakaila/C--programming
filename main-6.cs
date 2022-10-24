@@ -1,0 +1,23 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    
+  int grade=71;
+    
+if (grade>80) {
+  Console.WriteLine ("Display grade is above 80");
+}
+else if(grade>70) {Console.WriteLine ("Display above 80 but less than 70");
+}
+else if(grade>60) {Console.WriteLine("Display above 60 but less than 70");}
+                                     
+else if (grade>50) {Console.WriteLine ("Display above 50 but less than 60");}
+
+else if(grade>40)
+{ Console.WriteLine ("Display above 40");}
+else
+{Console.WriteLine("Display fail");}
+
+  }
+}
